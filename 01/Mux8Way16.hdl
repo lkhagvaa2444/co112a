@@ -18,7 +18,6 @@ CHIP Mux8Way16 {
     OUT out[16];
 
     PARTS:
-    /* This is the same principle as Mux4Way16 */
     Mux16(a=a, b=b, sel=sel[0], out=o1);
     Mux16(a=c, b=d, sel=sel[0], out=o2);
     Mux16(a=e, b=f, sel=sel[0], out=o3);
